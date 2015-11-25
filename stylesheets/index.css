@@ -123,6 +123,7 @@ p, a {
 @media screen and (max-width: 800px){
 	#content-board{
 		width: 100%;
+		float: left;
 	}
 	#content-inner{
 		width: 100%;

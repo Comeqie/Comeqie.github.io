@@ -141,5 +141,6 @@ p, a {
 @media screen and (max-width: 800px){
 	#link{
 		width: 100%;
+		float: left;
 	}
 }
