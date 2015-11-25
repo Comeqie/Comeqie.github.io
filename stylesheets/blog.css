@@ -142,5 +142,6 @@ p, a {
 	#link{
 		width: 100%;
 		float: left;
+		margin-left: 1.5em;
 	}
 }
