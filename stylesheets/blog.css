@@ -1,0 +1,130 @@
+body {
+	padding: 0;
+	margin: 0;
+	position: relative;
+	width: 98%;
+	min-width: 1000px;
+	border: medium none;
+	background: #f5f5d5 none repeat scroll 0 0;
+	color: #111111;
+	list-style-type: none;
+	text-align: left;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	font-family: Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;
+	font-size: 60%;
+	letter-spacing: -0.01em;
+	line-height: 1.8em;
+}
+h1 {
+	font-size: 2.88em;
+}
+p, a {
+	white-space: pre;
+	line-height: 180%;
+}/*keep the white space*/
+#container {
+	min-width: 0;
+	max-width: 960px;
+	width: 98%;
+	padding: 0.5em;
+	margin: 0 auto;
+	border: medium none;
+}
+#container-inner {
+	margin: 0;
+	padding: 0;
+	border: medium none;
+}
+#content-header {
+	margin: 0 0 1em;
+	padding: 0;
+	border: 1px solid #dcdcdc;
+	border-radius: 1em;
+	box-shadow: 0 1px 0 0 #eeeeee inset;
+	color: #fcb297;
+	font-weight: bold;
+	font-size: 1.9em;
+	background: #aad2f0;
+	background: #aad2f0 -moz-linear-gradient(left top, #aad2f0 5%, #8bc1ed 100%) repeat scroll 0 0;
+	background: -webkit-gradient( linear, left top, left bottom,color-stop(0.05, #aad2f0), color-stop(1, #8bc1ed));
+}
+#content-header::after {
+	clear: both;
+	display: block;
+	content: " ";
+	height: 0;
+}
+#description {
+	display: inline;
+	float: left;
+	margin-top: 1em;
+	margin-left: 1.5em;
+}
+#description p {
+	display: inline;
+	color: #111111;
+}
+#description a {
+	display: inline;
+	color: green;
+	text-decoration: none;
+}
+#link {
+	float: right;
+	display: inline;
+	padding-right: 0;
+	overflow: hidden;
+	width: 20em;
+	color: #111111;
+}
+#link a {
+	color: #556677;
+	font-size: 95%;
+	text-decoration: underline;
+}
+#content {
+}
+#content h1, h2, h3 {
+	border-bottom: 1px solid #d3d3d3;
+	color: #000000;
+	font-weight: 500;
+	letter-spacing: -0.03em;
+	margin: 0.4em 0 0.2em;
+	padding: 0 0 0.2em;
+	line-height: 250%;
+}
+#abstract {
+	line-height: 0.8;
+	margin: 1.5em auto 2em;
+	color: #556677;
+	margin-left: 0.8em;
+	margin-top: 1em;
+	font-size: 1.6em;
+}
+#abstract a {
+	text-decoration: none;
+}
+#article {
+	font-size: 1.6em;
+	font-family: Tahoma,Helvetica,Arial,"宋体",sans-serif;
+}
+#article p {
+	margin-left: 0.8em;
+	margin-top: 1em;
+}
+#article blockquote {
+	overflow: auto;
+	margin: 1em;
+	padding: 0.5em 1em;
+	background-color: #f5f2f0;
+	border-style: solid;
+	border-color: #e0dfcc;
+	border-width: 0.15em;
+	border-radius: 1em;
+	font-family: Consolas,Monaco,"Andale Mono",monospace;
+}
+#article blockquote .note {
+	color: slategray;
+}
