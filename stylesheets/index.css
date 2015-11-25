@@ -1,0 +1,124 @@
+body {
+	padding: 0;
+	margin: 0;
+	position: relative;
+	width: 98%;
+	min-width: 1000px;
+	border: medium none;
+	background: #f5f5d5 none repeat scroll 0 0;
+	color: #111111;
+	list-style-type: none;
+	text-align: left;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	font-family: Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;
+	font-size: 60%;
+	letter-spacing: -0.01em;
+	line-height: 1.8em;
+}
+h1 {
+	font-size: 2.88em;
+}
+p, a {
+	white-space: pre;
+	line-height: 180%;
+}/*keep the white space*/
+#container {
+	min-width: 0;
+	max-width: 960px;
+	width: 98%;
+	padding: 2em;
+	margin: 0 auto;
+	border: medium none;
+}
+#container-inner {
+	margin: 0;
+	padding: 0;
+	border: medium none;
+}
+#header {
+	height: 3em;
+	margin: 2em 0 2em;
+	width: 100%;
+	border-bottom: 1px solid #d3d3d3;
+}
+#header-content h1 {
+	color: #556677;
+	font-family: Georgia,serif;
+	font-size: 1.8em;
+	font-weight: normal;
+}
+#content {
+	width: 95%;
+}
+#content-board {
+	float: right;
+	width: 24%;
+	margin: 2em 3% 1em 0;
+	padding: 0.6em;
+	max-width: 300px;
+	min-width: 180px;
+	overflow: hidden;
+}
+#content-board h2 {
+	font-size: 1.8em;
+	border-bottom: 1px solid #d3d3d3;
+	margin: 0.4em 0 0.2em;
+	padding-bottom: 0.2em;
+}
+#board-message {
+	width: 90%;
+	color: black;
+	background-color: #deebf7;
+	border-radius: 1em;
+	padding: 1em;
+	margin-bottom: 1em;
+}
+#message-list ul li {
+	list-style-type: circle;
+	font-size: 1.44em;
+	line-height: 220%;
+}
+#message-list a {
+	text-decoration: underline;
+	color: black;
+	margin-left: 0.4em;
+}
+#introduce {
+	width: 90%;
+	background-color: #deebf7;
+	border-radius: 1em;
+	padding: 1em;
+}
+#introduce-content {
+	color: black;
+	text-decoration: underline;
+	font-size: 1.44em;
+	padding: 1em;
+}
+#content-inner {
+	width: 64%;
+	float: left;
+}
+.blog-content {
+	margin: 2em 0;
+	padding: 1em;
+	background-color: #deebf7;
+	border-radius: 1em;
+	font-size: 1.44em;
+}
+.link {
+	width: 100%;
+	border-bottom: 1px solid #d3d3d3;
+}
+.link a {
+	text-decoration: none;
+	font-size: 1.8em;
+}
+.link-content {
+	color: #556677;
+	font-family: Georgia,serif;
+	font-size: 1.4em;
+	font-weight: normal;
+}

@@ -28,7 +28,7 @@ p, a {
 	min-width: 0;
 	max-width: 960px;
 	width: 98%;
-	padding: 0.5em;
+	padding: 2em;
 	margin: 0 auto;
 	border: medium none;
 }
@@ -36,6 +36,21 @@ p, a {
 	margin: 0;
 	padding: 0;
 	border: medium none;
+}
+#header {
+	height: 3em;
+	margin: 2em 0 3em;
+	width: 100%;
+	border-bottom: 1px solid #d3d3d3;
+}
+#header-content h1 {
+	color: #556677;
+	font-family: Georgia,serif;
+	font-size: 1.8em;
+	font-weight: normal;
+}
+#content {
+	width: 95%;
 }
 #content-header {
 	margin: 0 0 1em;
@@ -67,7 +82,7 @@ p, a {
 	color: #111111;
 }
 #description a {
-	display: inline;
+	display: block;
 	color: green;
 	text-decoration: none;
 }
@@ -84,9 +99,7 @@ p, a {
 	font-size: 95%;
 	text-decoration: underline;
 }
-#content {
-}
-#content h1, h2, h3 {
+#content-blog h1, h2, h3 {
 	border-bottom: 1px solid #d3d3d3;
 	color: #000000;
 	font-weight: 500;
@@ -97,10 +110,8 @@ p, a {
 }
 #abstract {
 	line-height: 0.8;
-	margin: 1.5em auto 2em;
+	margin: 1.5em 1.5em 2em;
 	color: #556677;
-	margin-left: 0.8em;
-	margin-top: 1em;
 	font-size: 1.6em;
 }
 #abstract a {
@@ -109,14 +120,14 @@ p, a {
 #article {
 	font-size: 1.6em;
 	font-family: Tahoma,Helvetica,Arial,"宋体",sans-serif;
+	margin-left: 1.5em;
 }
 #article p {
-	margin-left: 0.8em;
 	margin-top: 1em;
 }
 #article blockquote {
 	overflow: auto;
-	margin: 1em;
+	margin: 1em 0;
 	padding: 0.5em 1em;
 	background-color: #f5f2f0;
 	border-style: solid;
