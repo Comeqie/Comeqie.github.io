@@ -120,3 +120,11 @@ p, a {
 	font-size: 1.4em;
 	font-weight: normal;
 }
+@media screen and (max-width: 800px){
+	#content-board{
+		width: 100%;
+	}
+	#content-inner{
+		width: 100%;
+	}
+}

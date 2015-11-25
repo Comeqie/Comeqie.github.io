@@ -138,3 +138,8 @@ p, a {
 #article blockquote .note {
 	color: slategray;
 }
+@media screen and (max-width: 800px){
+	#link{
+		width: 100%;
+	}
+}
