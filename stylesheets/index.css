@@ -3,7 +3,6 @@ body {
 	margin: 0;
 	position: relative;
 	width: 98%;
-	min-width: 1000px;
 	border: medium none;
 	background: #f5f5d5 none repeat scroll 0 0;
 	color: #111111;
@@ -25,7 +24,6 @@ p, a {
 	line-height: 180%;
 }/*keep the white space*/
 #container {
-	min-width: 0;
 	max-width: 960px;
 	width: 98%;
 	padding: 2em;
@@ -57,7 +55,7 @@ p, a {
 	width: 24%;
 	margin: 2em 3% 1em 0;
 	padding: 0.6em;
-	max-width: 300px;
+	max-width: 100%;
 	min-width: 180px;
 	overflow: hidden;
 }
