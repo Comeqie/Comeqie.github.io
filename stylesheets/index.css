@@ -20,7 +20,8 @@ h1 {
 	font-size: 2.88em;
 }
 p, a {
-	white-space: pre;
+	white-space: pre-wrap;
+	word-break: break-all;
 	line-height: 180%;
 }/*keep the white space*/
 #container {
