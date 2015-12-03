@@ -35,6 +35,7 @@ var drawMeter = function() {
     ctx.clearRect(0, 0, width, height); //清理画布准备画画
     for (var i = 0; i < lineNumber; i++) {
         var value = array[i * step];
+        value=value>height?height:value;
         //获取第一个画面的Data
         if (lastData.length<Math.round(lineNumber)){
         	lastData.push(value);
