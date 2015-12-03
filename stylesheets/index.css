@@ -121,6 +121,9 @@ p, a {
 	font-size: 1.4em;
 	font-weight: normal;
 }
+#mediaDiv {
+	width: 100%;
+}
 #mycanvas {
 	width: 100%;
 	height: 100%;
@@ -136,7 +139,7 @@ p, a {
 	#mycanvas {
 		float: left;
 	}
-	body {
+	#container {
 		width: 100%;
 	}
 }
