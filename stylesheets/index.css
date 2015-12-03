@@ -133,17 +133,13 @@ p, a {
 	height: 100%;
 }
 @media screen and (max-width: 800px){
-	#content-board{
-		width: 100%;
-		float: left;
-	}
-	#content-inner{
-		width: 100%;
-	}
-	#mycanvas {
+	#content-board, #content-inner {
+		width: 85%;
+		margin: 2em auto;
 		float: left;
 	}
 	#container {
 		padding: 0 auto;
+		margin: 0;
 	}
 }
