@@ -143,4 +143,7 @@ p, a {
 		padding: 0 auto;
 		margin: 0;
 	}
+	body {
+		width: 100%;
+	}
 }
