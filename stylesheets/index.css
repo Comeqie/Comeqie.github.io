@@ -134,7 +134,7 @@ p, a {
 }
 @media screen and (max-width: 800px){
 	#content-board, #content-inner {
-		width: 90%;
+		width: 98%;
 		margin: 2em auto;
 		float: left;
 	}
@@ -142,8 +142,5 @@ p, a {
 		width: 100%;
 		padding: 0 auto;
 		margin: 0;
-	}
-	body {
-		width: 100%;
 	}
 }
