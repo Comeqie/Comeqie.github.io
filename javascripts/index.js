@@ -57,12 +57,14 @@ requestAnimationFrame(drawMeter);
 //播放音频列表
 var musiclist=['cby-nmwm.mp3','cxc-djjy.mp3','do-not-let-it-pass.mp3','far-away.mp3','tfboys.mp3','zbc-nianlun.mp3'];
 var musicMax=6;
-var musicCur=5;
+var musicCur=0;
 myaudio.onended=function(){
-	musicCur--;
-	if (musicCur<0) {
-		musicCur=musicMax-1;
-	}
+	var musicNext=Math.floor(Math.random()*musicMax);
+	if (musicCur!=musicNext) {
+		musicCur=musicNext;
+	} else {
+        musicNext=Math.floor(Math.random()*musicMax);
+    }
 	myaudio.src='music/'+musiclist[musicCur];
 	myaudio.play();
 };
