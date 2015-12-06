@@ -125,6 +125,7 @@ p, a {
 	margin-top: 1em;
 }
 #article blockquote {
+	white-space: pre-wrap;
 	overflow: auto;
 	margin: 1em 0;
 	padding: 0.5em 1em;

@@ -5,6 +5,7 @@
     <meta name="keywords" content="Comeqie blog">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/taiji.css">
     <title>Blog by Comeqie</title>
   </head>
   <body>
@@ -35,8 +36,11 @@
             <p>Date   : <a href="https://github.com/Comeqie/">2015/11/25</a></p>
           </div>
           <div id="article">
-            <a href="../../css3/taiji.html" target="_blank">太极</a>
-            <blockquote>区别与正常博文，插入些代码或别的<p class="note">//注释</p></blockquote>
+            <p>太  极</p>
+            <div id="taiji">
+              <div id="taiji-content"><div id="liangyi"></div></div>
+            </div>            
+            <blockquote>  #taiji-content {<br />    position: relative;<br />    left: 50%;<br />    top: 5px;<br />    width: 100px;<br />    height: 100px;<br />    background-color: #000;<br />    border-radius: 50%;<br />    box-shadow: 0px 5px 2px #ccc;<br />  }<br />  #taiji-content:after {<br />    content: "";<br />    position: absolute;<br />    top: 50px;<br />    display: block;<br />    width: 100px;<br />    height: 50px;<br />    background-color: #fff;<br />    border-radius: 0 0 50px 50px;<br />    z-index: 0;<br />  }<br />  #liangyi {<br />    position: absolute;<br />    top: 25px;<br />    width: 10px;<br />    height: 10px;<br />    border: 20px solid #000;<br />    background-color: #fff;<br />    border-radius: 50%;<br />    z-index: 1;<br />  }<br />  #liangyi:after {<br />    content: "";<br />    position: absolute;<br />    top: -20px;<br />    left: 30px;<br />    width: 10px;<br />    height: 10px;<br />    border: 20px solid #fff;<br />    background-color: #000;<br />    border-radius: 50%;<br />  }<br /></blockquote>
           </div>
           <div id="footer"></div>
         </div>
