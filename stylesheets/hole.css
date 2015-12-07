@@ -6,8 +6,12 @@
 #hole-content {
 	width: 160px;
 	height: 160px;
-	top: 5px;
-	left: 40%;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
 	position: relative;
 	overflow: hidden;
 }
@@ -26,4 +30,5 @@
 	width: 100px;
 	left: 30px;
 	top: 15px;
+	overflow: hidden;
 }

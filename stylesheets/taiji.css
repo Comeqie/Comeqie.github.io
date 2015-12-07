@@ -6,8 +6,12 @@
 }
 #taiji-content {
 	position: relative;
-	left: 40%;
-	top: 5px;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
 	width: 100px;
 	height: 100px;
 	background-color: #000;
