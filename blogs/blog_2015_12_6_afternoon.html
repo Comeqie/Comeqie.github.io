@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
     <link rel="stylesheet" type="text/css" href="../stylesheets/taiji.css">
     <link rel="stylesheet" type="text/css" href="../stylesheets/hole.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/heart.css">
     <link rel="icon" type="image/x-icon" href="../images/taiji.png">
     <link rel="shortcut icon" type="image/x-icon" href="../images/taiji.png">
     <title>Blog by Comeqie</title>
@@ -49,6 +50,11 @@
               <div id="hole-content"><img src="../images/introduce.jpg"></div>
             </div>
             <blockquote>  #hole-content {<br />    width: 160px;<br />    height: 160px;<br />    top: 50%;<br />    left: 50%;<br />    transform: translate(-50%,-50%);<br />    position: relative;<br />    overflow: hidden;<br />  }<br />  #hole-content:after {<br />    position: absolute;<br />    height: 100px;<br />    width: 100px;<br />    left: -50px;<br />    top: -50px;<br />    content: '';<br />    border-radius: 1000px;<br />    border: 80px solid #0079AB;<br />  }</blockquote>
+            <p>红  心</p>
+            <div id="heart">
+              <div id="heart-content"></div>
+            </div>
+            <blockquote>  #heart-content {<br />    width: 100px;<br />    height: 100px;<br />    position: absolute;<br />    left: 50%;<br />    top: 50%;<br />    transform: translate(-50%,-50%); <br />    overflow: hidden;<br />  }<br />  #heart-content::before {<br />    content: '';<br />    width: 50px;<br />    height: 80px;<br />    position: absolute;<br />    left: 50px;<br />    top: 10px;<br />    background-color: red;<br />    border-radius: 50px 50px 0 0;<br />    transform-origin: 0 100%;<br />    transform: rotate(-45deg);<br />  }<br />  #heart-content::after {<br />    content: '';<br />    width: 50px;<br />    height: 80px;<br />    position: absolute;<br />    left: 0px;<br />    top: 10px;<br />    background-color: red;<br />    border-radius: 50px 50px 0 0;<br />    transform-origin: 100% 100%;<br />    transform: rotate(45deg);<br />  }</blockquote>
           </div>
           <div id="footer"></div>
         </div>
