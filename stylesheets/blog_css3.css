@@ -1,0 +1,26 @@
+.hover1 {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	background-color: #eee;
+	margin-bottom: 1em;
+}
+.hover1::before {
+	content: '【';
+	margin-right: 1em;
+	transform: translateX(2em);
+}
+.hover1::after {
+	content: '】';
+	margin-left: 1em;
+	transform: translateX(-2em);
+}
+.hover1::before, .hover1::after {
+	display: inline-block;
+	opacity: 0;
+	transition: transform 0.3s ease 0s, opacity 0.3s ease 0s;
+}
+.hover1:hover::before, .hover1:hover::after{
+	opacity: 1;
+	transform: translateX(0em);
+}
